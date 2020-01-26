@@ -1,0 +1,98 @@
+#baseURL = "https://pasadss.github.io/skilltraintw/"
+baseURL = "https://exsample.org"
+languageCode = "en-us"
+title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "timer"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.nav]]
+name    = "About"
+url     = "about"
+weight  = 2
+[[menu.nav]]
+name    = "Service"
+url     = "service"
+weight  = 3
+[[menu.nav]]
+name    = "Gallery"
+url     = "gallery"
+weight  = 4
+[[menu.nav]]
+name    = "Blog"
+url     = "blog"
+weight  = 5
+[[menu.nav]]
+name    = "Contact"
+url     = "contact"
+weight  = 6
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/logo.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Airspace Hugo theme"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.jpg"
+heading = "HI,歡迎加入SkillTrainTW學習網"
+#description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+# button
+btn     = true
+btnText = "Download More"
+btnURL  = "https://themefisher.com/"
+
+# flip text
+[[params.banner.flipText]]
+title   = "全方位的電腦學習"
+[[params.banner.flipText]]
+title   = "最佳電腦自學平台"
+[[params.banner.flipText]]
+title   = "輕鬆掌握學習技巧"
+[[params.banner.flipText]]
+title   = "職場技能專業培訓"
+[[params.banner.flipText]]
+title   = "你也能成為電腦達人"
+
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "ABOUT ME"
+content = "Hello，朋友們大家好<br>我是 Hannah 從事電腦教育訓練工作已超過30+年，在30+年教育訓練中，主要培訓對象為公民營等中小企業內部電腦教育訓練，及政府合作職業訓練中，發現許多朋友們最大的學習問題在於，不知如何記憶操作，以及學習後不知該如何應用，以致使許多朋友們在學習中，遇到了許多的挫折感以及未知感。 <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+image   = "images/about/about.jpg"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "SO WHAT YOU THINK ?"
+content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+btnText = "Contact with me"
+btnURL  = "/contact"
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = true
+title   = "Latest Works"
+subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-linkedin"
+url = "#"
